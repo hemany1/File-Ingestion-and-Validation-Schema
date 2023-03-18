@@ -1,0 +1,17 @@
+file_type: tsv
+dataset_name: training
+file_name: training
+inbound_delimiter: "\t"
+outbound_delimiter: "|"
+columns: 
+    - user_id
+    - article_id
+    - revision_id
+    - namespace
+    - timestamp
+    - md5 
+    - reverted
+    - reverted_user_id
+    - reverted_revision_id
+    - delta
+    - cur_size
